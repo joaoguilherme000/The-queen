@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import Script from "next/script";
+import { Kurale } from "next/font/google";
+
+const kurale = Kurale({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "The Queen",
@@ -21,7 +24,7 @@ export default function RootLayout({
           strategy="beforeInteractive" // Carrega antes da renderização
         />
       </head>
-      <body>
+      <body className={kurale.className}>
         {children}
       </body>
     </html>

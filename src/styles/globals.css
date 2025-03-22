@@ -26,7 +26,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'kurale', sans-serif;
 	overflow-x: hidden;
 }
 
@@ -57,11 +56,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-@font-face {
-	font-family: 'kurale';
-	src: url('../../public/font/Kurale-Regular.ttf') format('truetype');
 }
 
 a {
