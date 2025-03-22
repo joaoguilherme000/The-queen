@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.29);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(3px);
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.29);
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+.logo-block{
+  display: flex;
+  flex-direction: row;
+  padding-left: 15vh;
+  align-items: center;
+}
+
+.logo-block h1 {
+  font-size: 3vh;
+  margin-right: 1vh;
+}
+
+.logo-image{
+  height: 6vh;
+  width: auto;
+}
+
+.anchor-block {
+  display: flex;
+  flex-direction: row;
+  padding-right: 15vh;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.anchor-block h1 {
+  font-size: 3vh;
+  color: white;
+}

@@ -1,0 +1,56 @@
+[
+  { 
+    "nome": "Catrina",
+    "foto": "/pessoa1.jpeg",
+    "comentario": "Se você quer uma bike que se destaque e ofereça desempenho, essa é a escolha certa. Recomendo demais!😍",
+    "rate": "⭐⭐⭐⭐⭐" 
+  },
+  { 
+    "nome": "Maria",
+    "foto": "/pessoa2.jpeg",
+    "comentario": "Já tive várias bicicletas, mas essa superou todas, Leve, ágil e perfeita para o dia a dia",
+    "rate": "⭐⭐⭐⭐" 
+  },
+  {
+    "nome": "Jefferson",
+    "foto": "/pessoa3.jpeg",
+    "comentario": "Um verdadeiro símbolo de status para quem aprecia esportes e mobilidade com classe. A melhor escolha do mercado!",
+    "rate": "⭐⭐⭐⭐⭐" 
+  },
+  {
+    "nome": "Gustavo",
+    "foto": "/pessoa4.jpeg",
+    "comentario": "Gostei da experiência geral, os freios poderiam ser mais responsivos em terrenos mais exigentes.",
+    "rate": "⭐⭐⭐" 
+  },
+  {
+    "nome": "Ana",
+    "foto": "/pessoa5.jpeg",
+    "comentario": "Comprei a Bike para usar na cidade e estou apaixonado! Leve, ágil e perfeita para o dia a dia. 🏙️",
+    "rate": "⭐⭐⭐⭐" 
+  },
+  { 
+    "nome": "Paulo",
+    "foto": "/pessoa6.jpeg",
+    "comentario": "Ótima escolha para quem quer qualidade e sofisticação. O acabamento é impecável e os detalhes fazem toda a diferença!💎",
+    "rate": "⭐⭐⭐⭐⭐" 
+  },
+  { 
+    "nome": "Carlos",
+    "foto": "/pessoa8.jpeg",
+    "comentario": "Super confortável e com uma pedalada suave. Só acho que o peso da bike poderia ser um pouco menor para facilitar o transporte.",
+    "rate": "⭐⭐⭐⭐" 
+  },
+  { 
+    "nome": "Janette",
+    "foto": "/pessoa9.jpeg",
+    "comentario": "A bike tem uma construção impecável e um acabamento de altíssimo nível. Qualidade excepcional!",
+    "rate": "⭐⭐⭐⭐⭐" 
+  },
+  { 
+    "nome": "Suzana",
+    "foto": "/pessoa10.jpeg",
+    "comentario": "A The Queen faz jus ao nome é a rainha das bicicletas! Qualidade, estilo e desempenho impecáveis.",
+    "rate": "⭐⭐⭐⭐" 
+  }
+]

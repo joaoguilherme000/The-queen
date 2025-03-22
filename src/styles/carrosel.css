@@ -1,0 +1,132 @@
+.carrosel-wrapper {
+  overflow: hidden;
+  justify-self: center;
+  align-self: center;
+  width: 90%;
+  margin-top: 8vh;
+}
+
+.carrosel {
+  display: flex;
+  gap: 4vh;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  cursor: grab;
+  user-select: none;
+  scrollbar-width: none;
+  width: 100%;
+  -webkit-mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.carrosel::-webkit-scrollbar {
+  display: none;
+}
+
+.carrosel:active {
+  cursor: grabbing;
+}
+
+.pessoa {
+  animation: scroll 10s alternate infinite;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 0.5vw;
+  min-width: 30%;
+  height: auto;
+  margin: 2vh;
+  user-select: none;
+	-webkit-user-drag: none;
+}
+
+.comentario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2vh;
+  padding: 2vh;
+  height: 100%;
+  width: 25vw;
+  min-width: fit-content;
+  background-color: #A56C60;
+  user-select: none;
+  border: 2px solid black;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.251);
+}
+
+.comentario h2 {
+  color: black;
+  user-select: none;
+	-webkit-user-drag: none;
+  height: 100%;
+}
+
+.rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3vh;
+  user-select: none;
+	-webkit-user-drag: none;
+}
+
+.rate h2{
+  user-select: none;
+	-webkit-user-drag: none;
+  width: 50%;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.img-pessoa {
+  align-self: center;
+  border-radius: 100%;
+  width: 50%;
+  height: auto;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.259);
+  user-select: none;
+	-webkit-user-drag: none;
+}
+
+.button-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vh;
+  padding: 2vh;
+}
+
+.img-button {
+  border-image: 2px solid black;
+}
+
+.nav-button {
+  align-self: center;
+  text-align: center;
+  border: 2px solid black;
+  padding: 2vh;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

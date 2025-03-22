@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2vh;
+  padding-left: 6vh;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.footer h2 {
+  font-size: 4vh;
+}
+
+.footer h3 {
+  font-size: 3vh;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.344);
+}
+
+.me {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.me h3 {
+  margin-top: 3vh;
+  flex: 1;
+}
+
+.me-too {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.socials {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 3vh;
+  gap: 12vh;
+}
+
+.me-three {
+  border-top: 1px solid black;
+}

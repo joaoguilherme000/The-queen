@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background: url("/photo.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  min-height: auto;
+  text-align: center;
+}
+
+.initial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+  margin-right: 5%;
+  width: 60%;
+  align-self: flex-end;
+}
+
+.main h1 {
+  margin-bottom: 5vh;
+}
+
+.main h2 {
+  width: 83%;
+}
+
+.main p {
+  margin-top: 40%;
+  padding: 2vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  color: #000000;
+  font-size: 3vh;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.395);
+  background-color: #A56C60;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.copy {
+  margin-top: 30%;
+  color: white;
+}
